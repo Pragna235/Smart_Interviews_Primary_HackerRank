@@ -37,6 +37,24 @@ void solve1(int n, char src, char dest, char temp){
     c++;
    
 }
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+       solve1(n,'A','B','C');
+        cout<<c<<endl;
+       
+        solve(n,'A','C','B');
+        c=0;
+   
+       
+       
+    }
+    return 0;
+}
 
 
 
